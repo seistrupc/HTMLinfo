@@ -1,7 +1,8 @@
 <!doctype HTML>
-<HTML>
+<html>
     <head>
-<header>
+        <title>Contact Us</title>
+        <header>
             <h1 align="center">Pie League</h1>
             <hr><br>
             <div>
@@ -9,19 +10,89 @@
                 <a href="menu.html">Menu</a>&emsp;
                 <a href="Contact.html">Contact Us</a>
              
-         </div>
+            </div>
             <br><hr>
         </header>
     </head>
     <body>
-        
+<style>
+
+        fieldset { 
+
+            display: block;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-top: 0em;
+            padding-bottom: 0em;
+            padding-left: 0em;
+            padding-right: 0em;
+            border: 0px;
+
+    }
+
+        #info {
+            height:200px;
+            width:200px;
+
+    }
+
+        label{
+            font-weight: bold;
+            padding:0px 5px 0px 650px;
+            display: inline-block;
+            width: 200px;
+            text-align: right;
+            clear: both;
+
+    }
+
+        #box{
+            
+            clear:both;
+            width: 200px;
+
+    }
+
+    </style>
+
+    <div>
+
+    <form action="http://mycompany.com">
+        <label  for="Name">Name:</label>
+        <input id="box" type="text" name="Name"/><br/>
+        <br/>        
+        <label for="Email">Email:</label>
+        <input id="box" type="email" name="email"/><br/>
+        <br/>
+        <label for="Phone">Phone:</label>
+        <input id="box" type="text" name="phone"/><br/>
+        <br/>
+        <label for="reason">Reason for inquiry:</label>
+        <select name:"reason" style="width:200px">
+            <option value="catering" selected>Catering</option>
+            <option value="Privateparty">Private Party</option>
+            <option value="feedback">Feedback</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <center><b>Additional Information:</b><br><textarea name="additionalinformation"></textarea><br>
+        <b>Have you been to the Restaurant?:<input type="radio" name="answer" value="yes" checked/>Yes
+        <input type="radio" name="answer" value="no"/>No<br><br>
+        Best days to contact you:</b>
+        <input type="checkbox" name="bestdays" value="Monday"/>M
+        <input type="checkbox" name="bestdays" value="Tuesday"/>T
+        <input type="checkbox" name="bestdays" value="Wednesday"/>W
+        <input type="checkbox" name="bestdays" value="Thursday"/>Th
+        <input type="checkbox" name="bestdays" value="Friday"/>F<br>
+        <br>
+        <button name="submit" value="request" type="submit">Submit Request</button>
+        </center>
     </body>
     <footer>
         <hr>
-        <h4 align="center">
+<h4 align="center">
             1234 NW Presidential Ave.<br>
             Metropolis, NY 54321
             
         </h4>
     </footer>
-</HTML>
+</html>

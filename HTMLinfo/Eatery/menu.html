@@ -1,84 +1,103 @@
 <!doctype HTML>
 <HTML>
+     
     <head>
-       
+     <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
         <header>
             <h1 align="center">Pie League</h1>
             <hr><br>
-           
-                <a href="index.html">Home</a>&emsp;
-                <a href="menu.html">Menu</a>&emsp;
-                <a href="Contact.html">Contact Us</a>
+            <div class="header">
+                <a href="index.html">Home</a><!--&emsp;-->
+                <a class="spacing" href="menu.html">Menu</a><!--&emsp;-->
+                <a class="spacing" href="Contact.html">Contact Us</a>
              
-           
+            </div>
             <br><hr>
-          </header>
-    </head>
-    <body>
+        </header>
         <style>
-        img{
-            display: block;
-            margin: 0 auto;
-        }
-        div{
-            text-align: center;
-        }
-        table{
-            display: inline-table;
-            margin: auto;
-        }
-        </style>
-         
-        <div width=100%>
        
-       <!-- I cannot get this stupid thing to center like everything else
-       without the use of CSS. This is as close as I could get. -->
 
-       <table>
-        <tr>
-            <th>Kingpin</th>
-            <th>Aquaman</th>
-            <th>Gambit</th>
-
-        </tr>
-        <tr>
-            <td align="center">Red Sauce, Fresh Mozzarella, <br>
-            Pepperoni, Sausage, Bacon, <br>
-            $16.99</td>
-            <td align="center">Fresh Mozzarella, calamari, <br>
-            smoked salmon, sea salt crust<br>
-            $14.99</td>
-            <td align="center">BBQ sauce base, Cajun style chicken,<br>
-            jalapenos, blackened shrimp<br>
-            $15.99   </td>
-
-        </tr>
-        <br>
-        <tr>
-            <th>The Punisher</th>
-            <th>Proffessor X</th>
-            <th>The Hulk</th>
-            
-        </tr>
-        <tr>
-            <td align="center">Pepperjack, Mozzarella<br>
-            Pepperoni, Spicy Italian Sausage, Jalapeno<br>
-            $14.99 </td>
-            <td align="center">Mozzarella, Mushrooms<br>
-            Onion, Sun-Dried Tomato<br>
-            $14.99</td>
-            <td align="center">Pesto Sauce, Feta,<br>
-            Zucchini, Broccoli, Kale<br>
-            $14.99</td>
-
+       
+       .container{
+           width: 100%;
+           text-align: center;
+           height: 400px;
+           font-size: 125%;
+          }
+      
+      
+       .left{
+           float: left;
+           width: 300px;
+           margin-left: 300px;
+           padding-top: 50px;
+           
+           
+                   
+       }
+       .center{
+           display: inline-block;
+           margin: 0 auto;
+           width: 300px;   
+            padding-top: 50px;
         
-       </table>
+       }
+        .right{
+           float: right;
+           width: 300px;
+           margin-right: 300px;    
+             padding-top: 50px;
+        
+       }
+        </style>
+    </head>
+
+
+    <body>
+        <div class="container">
+        <div class="left">
+            Kingpin <br>
+    Red Sauce, Fresh Mozzarella,<br>
+    Pepperoni, Sausage, Bacon,<br>
+            $16.99
+            <br><br><br>
+            The Punisher<br>
+            Pepperjack, Mozzarella<br>
+            Pepperoni, Spicy Italian Sausage, Jalapeno<br>
+            $14.99
+
+        </div>
+        <div class="right">
+        Gambit<br>
+        BBQ sauce base, Cajun style chicken,<br>
+        jalapenos, blackened shrimp<br>
+        $15.99 
+        <br><br><br>
+        The Hulk<br>
+        Pesto Sauce, Feta,<br>
+            Zucchini, Broccoli, Kale<br>
+            $14.99
+
         </div>
 
+        <div class="center">
+            Aquaman<br>
+            Fresh Mozzarella, calamari,<br>
+            smoked salmon, sea salt crust<br>
+            $14.99
+            <br><br><br>
+            Professor X<br>
+            Mozzarella, Mushrooms<br>
+            Onion, Sun-Dried Tomato<br>
+            $14.99
+        </div>
+        
+        </div>
+    
     </body>
-    <footer>
+        <footer>
         <hr>
-        <h4 align="center">
+<h4>
             1234 NW Presidential Ave.<br>
             Metropolis, NY 54321
             

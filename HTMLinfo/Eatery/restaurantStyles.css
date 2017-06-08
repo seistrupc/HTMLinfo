@@ -1,0 +1,24 @@
+
+a{
+    font-size: 150%;
+}
+.header{
+   
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.spacing{
+    padding-left: 50px
+    
+}
+
+footer{
+    text-align: center;
+
+}
+body{
+    font-family: "Palatino Linotype","Book Antiqua", Palatino, serif;
+}
+  .tallDiv{
+                height: 400px;
+            }

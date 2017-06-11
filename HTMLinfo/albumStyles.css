@@ -1,10 +1,13 @@
 
+
+
 table{
    vertical-align: middle;
     text-align: center;
     width: 600px;
     
 }
+  
 td{
     border-bottom: 1px solid;
 }
@@ -12,3 +15,25 @@ td{
     tr:hover {background-color: #f5f5f5} 
     */
     tr:nth-child(even) {background-color: gainsboro}
+    
+#movement{
+    
+    padding-left: 625px;
+}
+
+   
+   li{
+        font-style: italic;
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+        transition: font-size 1s;
+   }
+   li:hover {
+       font-size: 1.5em;
+   }
+  
+   
+   .pic{
+       
+       margin: 0 auto;
+       background: #000;
+   }

@@ -1,4 +1,7 @@
 
+.pizzaFont{
+    font-family: 'Trirong', serif;
+}
 a{
     font-size: 150%;
 }
@@ -10,6 +13,10 @@ a{
 .spacing{
     padding-left: 50px
     
+}
+p1{
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 footer{

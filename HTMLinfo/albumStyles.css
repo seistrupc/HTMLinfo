@@ -1,6 +1,23 @@
 
 
+a{
+    text-decoration: none;
+    
 
+}
+a:link{
+    background-color: navy;
+}
+a:visited{
+    background-color: cyan;
+}
+a:hover{
+    background-color: red;
+    text-decoration: underline;
+  
+   
+   }
+  
 table{
    vertical-align: middle;
     text-align: center;
@@ -9,12 +26,14 @@ table{
 }
   
 td{
+    font-style: italic;
     border-bottom: 1px solid;
 }
     /*Changes color of a Table Row when hovered over
     tr:hover {background-color: #f5f5f5} 
     */
     tr:nth-child(even) {background-color: gainsboro}
+    
     
 #movement{
     

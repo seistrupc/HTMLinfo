@@ -1,0 +1,36 @@
+Total height:212px
+
+Content height= 150px
+padding height top= 10px 
+border height top = 1px 
+margin height top =20px
+padding height bottom = 10px
+border height bottom 1px
+margin height bottom = 20px
+
+Total Width:462px
+
+Content Width = 400px
+padding width right = 10px
+border width right = 1px
+margin width right = 20px
+padding width left = 10px
+border width left = 1px
+margin width left = 20px
+
+Browser Calculated height:172px
+
+Content height = 150px
+border height top = 1px
+padding height top = 10px
+border height bottom = 1px
+padding height bottom = 10px
+
+Browser Calculated width:422px
+
+Content width = 400px
+border width right = 1px
+padding width right = 10px
+border width left = 1px
+padding width left = 10px
+

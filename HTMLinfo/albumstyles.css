@@ -4,6 +4,9 @@
        margin: 0 auto;
        background: #000;
    }
+   #hrPics{
+       display: inline;
+   }
 
 td{
     text-align: center;

@@ -1,0 +1,25 @@
+footer{
+    text-align: center;
+}
+.centered{
+    text-align: center;
+   
+}
+p1{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+
+}
+#contact{
+    text-align: center;
+}
+
+.carSize{
+    height: 300px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
